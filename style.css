@@ -1,0 +1,9 @@
+.choices{
+    display: flex;
+}
+.rock,
+.paper,
+.scissors{
+    flex-grow: 1;
+    border: 2px solid red;
+}
