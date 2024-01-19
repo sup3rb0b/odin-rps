@@ -1,9 +1,17 @@
+
+
 .choices{
     display: flex;
 }
+
+.result,
+.score,
 .rock,
 .paper,
 .scissors{
+    display: flex;
+    justify-content: center;
     flex-grow: 1;
+
     border: 2px solid red;
 }
